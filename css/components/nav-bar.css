@@ -58,4 +58,14 @@
 }
 .nav__btn:last-child{
     animation-delay: 0.9s;
+    position: relative;
+}
+.nav__btn-reddot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
