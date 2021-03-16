@@ -56,3 +56,22 @@
     display: block;
 
 }
+.user-component__column__img{
+    width: 60px;
+    height: 60px; 
+    border-radius: 25px;
+    background-color: var(--yellow);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.user-component__column__img i{
+    font-size: 40px;
+}
+.user-component__column__img span{
+    color : var(--yellow);
+    position: absolute;
+    left: 30%;
+}
